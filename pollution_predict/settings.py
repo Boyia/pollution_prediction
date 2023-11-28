@@ -62,10 +62,11 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    "pollution_predict.pipelines.PollutionPredictPipeline": 300,
-#}
-
+ITEM_PIPELINES = {
+   "pollution_predict.pipelines.MongoDBPipeline": 300,
+}
+MONGODB_URI='mongodb://boyia:002780@localhost:27017/scrap'
+MONGODB_DATABASE='scrap'
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
