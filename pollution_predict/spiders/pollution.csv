@@ -1,0 +1,233 @@
+city,cur_pm25,level,max_pm25,min_pm25
+Anqing (安庆),147,Unhealthy for Sensitive Groups,168,82
+Zhangzhou (漳州),-,no data,147,5
+Beijing (北京),46,Good,137,9
+Zhoushan (舟山),"(None,)",no data,"(None,)","(None,)"
+Xiamen (厦门),72,Moderate,132,34
+Zhuji (诸暨),-,no data,139,38
+Yiwu (义乌),-,no data,139,30
+Wenzhou (温州),78,Moderate,155,59
+Shaoxing (绍兴),142,Unhealthy for Sensitive Groups,195,57
+Quzhou (衢州),74,Moderate,154,68
+Lishui (丽水),78,Moderate,165,72
+Ningbo (宁波),95,Moderate,179,76
+Jinhua (金华),109,Unhealthy for Sensitive Groups,170,85
+Jiaxing (嘉兴市),156,Unhealthy,161,65
+Huzhou (湖州),169,Unhealthy,237,13
+Hangzhou (杭州),87,Moderate,156,42
+Yuxi (玉溪),139,Unhealthy for Sensitive Groups,158,53
+Qujing (曲靖),74,Moderate,161,34
+Lijiang (丽江),25,Good,132,25
+Kunming (昆明),99,Moderate,157,57
+Korla (库尔勒),-,no data,165,53
+Karamay (克拉玛依),117,Unhealthy for Sensitive Groups,199,30
+Lhasa (拉萨),50,Good,171,25
+Ziyang (资阳),155,Unhealthy,161,50
+Yibin (宜宾),152,Unhealthy,208,17
+Zigong (自贡),-,no data,200,82
+Suining (遂宁),129,Unhealthy for Sensitive Groups,181,30
+Panzhihua (攀枝花),139,Unhealthy for Sensitive Groups,163,53
+Neijiang (内江),147,Unhealthy for Sensitive Groups,184,74
+Nanchong (南充),151,Unhealthy,190,61
+Meishan (眉山),156,Unhealthy,195,25
+Mianyang (绵阳),109,Unhealthy for Sensitive Groups,161,76
+Luzhou (泸州),151,Unhealthy,174,76
+Leshan (乐山),164,Unhealthy,178,13
+Guangyuan (广元),91,Moderate,157,34
+Deyang (德阳),164,Unhealthy,189,65
+Bazhong (巴中),-,no data,129,13
+Chengdu (成都),132,Unhealthy for Sensitive Groups,170,30
+Yangquan (阳泉),65,Moderate,160,57
+Yuncheng (运城),80,Moderate,260,38
+Xinzhou (忻州),78,Moderate,182,9
+Shuozhou (朔州),42,Good,250,21
+Taiyuan (太原),102,Unhealthy for Sensitive Groups,189,30
+Jincheng (晋城),97,Moderate,184,9
+Linfen (临汾),30,Good,208,17
+Jinzhong (晋中),82,Moderate,263,34
+Datong (大同),95,Moderate,209,30
+Changzhi (长治),76,Moderate,144,21
+Zaozhuang (枣庄),154,Unhealthy,220,154
+Zibo (淄博),38,Good,199,38
+Yantai (烟台),42,Good,176,38
+Weifang (潍坊),9,Good,194,9
+Weihai (威海),9,Good,174,9
+Rizhao (日照),25,Good,204,25
+Linyi (临沂),112,Unhealthy for Sensitive Groups,234,42
+Qingdao (青岛),38,Good,282,9
+Liaocheng (聊城),72,Moderate,267,25
+Jining (济宁),95,Moderate,184,95
+Jinan (济南),42,Moderate,221,5
+Heze (菏泽),112,Unhealthy for Sensitive Groups,224,30
+Dezhou (德州),30,Good,247,9
+Dongying (东营),9,Good,189,9
+Xianyang (咸阳),74,Moderate,227,61
+Tongchuan (铜川),68,Moderate,192,63
+Weinan (渭南),93,Moderate,184,65
+Binzhou (滨州),25,Good,194,25
+Baoji (宝鸡),109,Unhealthy for Sensitive Groups,210,68
+Xining (西宁),-,no data,205,5
+Shizuishan (石嘴山),"(None,)",no data,"(None,)","(None,)"
+Yinchuan (银川),93,Moderate,97,30
+Yingkou (营口),34,Good,178,21
+Shenyang (沈阳),70,Moderate,178,13
+Tieling (铁岭),53,Moderate,180,53
+Liaoyang (辽阳),93,Moderate,252,68
+Huludao (葫芦岛),38,Good,197,38
+Fushun (抚顺),72,Moderate,174,57
+Fuxin (阜新),25,Moderate,158,25
+Panjin (盘锦),50,Good,172,13
+Chaoyang (朝阳),38,Good,170,21
+Dandong (丹东),30,Good,152,30
+Benxi (本溪),65,Moderate,179,65
+Anshan (鞍山),42,Good,266,42
+Siping (四平),68,Moderate,198,42
+Jilin (吉林),55,Moderate,202,53
+Dalian (大连),38,Good,171,21
+Changchun (长春),61,Moderate,204,53
+Yingtan (鹰潭),93,Moderate,162,80
+Shangrao (上饶),99,Moderate,154,85
+Nanchang (南昌),124,Unhealthy for Sensitive Groups,187,9
+Jiujiang (九江),151,Unhealthy,164,91
+Jingdezhen (景德镇),72,Moderate,167,72
+Xinyu (新余),142,Unhealthy for Sensitive Groups,161,112
+Ganzhou (赣州),93,Moderate,162,21
+Yangzhou (扬州),117,Unhealthy for Sensitive Groups,184,78
+Xuzhou (徐州),91,Moderate,187,91
+Yancheng (盐城),61,Moderate,178,61
+Taizhou (台州市),"(None,)",no data,"(None,)","(None,)"
+Wuxi (无锡),160,Unhealthy,172,87
+Zhenjiang (镇江),147,Unhealthy for Sensitive Groups,187,93
+Suqian (宿迁),124,Unhealthy for Sensitive Groups,257,21
+Nantong (南通),134,Unhealthy for Sensitive Groups,179,72
+Nanjing (南京),97,Moderate,175,87
+Lianyungang (连云港),109,Unhealthy for Sensitive Groups,198,109
+Changshu (常熟),-,no data,161,80
+Jiangyin (江阴),-,no data,162,89
+Changzhou (常州),152,Unhealthy,183,132
+Chifeng (赤峰),25,Good,170,21
+Baotou (包头),72,Moderate,157,30
+Yueyang (岳阳),144,Unhealthy for Sensitive Groups,189,104
+Zhuzhou (株洲),155,Unhealthy,198,95
+Yongzhou (永州),119,Unhealthy for Sensitive Groups,171,93
+Yiyang (益阳),174,Unhealthy,181,107
+Xiangtan (湘潭),159,Unhealthy,184,104
+Zhangjiajie (张家界),112,Unhealthy for Sensitive Groups,164,95
+Shaoyang (邵阳),124,Unhealthy for Sensitive Groups,199,124
+Loudi (娄底),167,Unhealthy,241,149
+Huaihua (怀化),85,Moderate,160,85
+Hengyang (衡阳),152,Unhealthy,171,104
+Chenzhou (郴州),124,Unhealthy for Sensitive Groups,164,95
+Changsha (长沙),153,Unhealthy,169,119
+Changde (常德),159,Unhealthy,168,91
+Yichang (宜昌),91,Moderate,203,76
+Xiantao (仙桃),"(None,)",no data,"(None,)","(None,)"
+Xianning (咸宁),80,Moderate,162,80
+Xiangyang (襄阳),173,Unhealthy,192,137
+Tianmen (天门),"(None,)",no data,"(None,)","(None,)"
+Wuhan (武汉),127,Unhealthy for Sensitive Groups,208,127
+Suizhou (随州),114,Unhealthy for Sensitive Groups,174,95
+Xiaogan (孝感),154,Unhealthy,191,119
+Shiyan (十堰),127,Unhealthy for Sensitive Groups,156,57
+Qianjiang (潜江),"(None,)",no data,"(None,)","(None,)"
+Jingmen (荆门),178,Unhealthy,201,151
+Huangshi (黄石),114,Unhealthy for Sensitive Groups,163,102
+Jingzhou (荆州),139,Unhealthy for Sensitive Groups,177,139
+Huanggang (黄冈),109,Unhealthy for Sensitive Groups,181,78
+Enshi (恩施),"(None,)",no data,"(None,)","(None,)"
+Ezhou (鄂州),124,Unhealthy for Sensitive Groups,224,50
+Zhengzhou (郑州),97,Moderate,173,70
+Zhoukou (周口),109,Unhealthy for Sensitive Groups,167,104
+Xuchang (许昌),89,Moderate,167,68
+Xinxiang (新乡),107,Unhealthy for Sensitive Groups,206,61
+Shangqiu (商丘),"(None,)",no data,"(None,)","(None,)"
+Sanmenxia (三门峡),132,Unhealthy for Sensitive Groups,187,68
+Puyang (濮阳),151,Unhealthy,195,61
+Pingdingshan (平顶山),97,Moderate,169,78
+Luoyang (洛阳),149,Unhealthy for Sensitive Groups,170,78
+Nanyang (南阳),91,Moderate,175,91
+Jiyuan (济源),152,Unhealthy,169,87
+Jiaozuo (焦作),147,Unhealthy for Sensitive Groups,245,9
+Hebi (鹤壁),122,Unhealthy for Sensitive Groups,272,59
+Kaifeng (开封),99,Moderate,169,63
+Anyang (安阳),152,Unhealthy,258,89
+Yichun (伊春),104,Unhealthy for Sensitive Groups,158,82
+Shuangyashan (双鸭山),57,Moderate,185,57
+Mudanjiang (牡丹江),139,Unhealthy for Sensitive Groups,182,30
+Jiamusi (佳木斯),97,Moderate,175,42
+Jixi (鸡西),61,Moderate,179,9
+Heihe (黑河),34,Good,157,5
+Hegang (鹤岗),53,Moderate,152,34
+Daqing (大庆),63,Moderate,230,55
+Xingtai (邢台),93,Moderate,253,34
+Zhangjiakou (张家口),42,Good,167,13
+Xinji (辛集),-,no data,205,13
+Tangshan (唐山),9,Good,204,9
+Shijiazhuang (石家庄),55,Moderate,182,55
+Qinhuangdao (秦皇岛),46,Good,153,46
+Jinzhou (锦州),59,Moderate,173,55
+Hengshui (衡水),50,Good,195,5
+Langfang (廊坊),42,Good,174,5
+Handan (邯郸),132,Unhealthy for Sensitive Groups,218,30
+Dingzhou (定州),-,no data,80,13
+Cangzhou (沧州),21,Good,231,21
+Baoding (保定),53,Moderate,213,53
+Chengde (承德),46,Good,155,38
+Wanning,-,no data,80,25
+Wuzhishan (五指山),-,no data,53,13
+Wenchang,-,no data,82,42
+Sanya (三亚),112,Unhealthy for Sensitive Groups,124,21
+Qionghai (琼海),-,no data,89,30
+Zunyi (遵义),72,Moderate,155,72
+Haikou (海口),122,Unhealthy for Sensitive Groups,159,46
+Dongfang (东方),-,no data,151,5
+Danzhou (儋州),109,Unhealthy for Sensitive Groups,142,17
+Guiyang (贵阳),63,Moderate,171,57
+Pingxiang (萍乡),129,Unhealthy for Sensitive Groups,163,102
+Nanning (南宁),117,Unhealthy for Sensitive Groups,165,87
+Liuzhou (柳州),132,Unhealthy for Sensitive Groups,161,119
+Guilin (桂林),114,Unhealthy for Sensitive Groups,162,114
+Tianjin (天津),38,Good,205,9
+Beihai (北海),127,Unhealthy for Sensitive Groups,179,68
+Yunfu (云浮),-,no data,170,9
+Zhaoqing (肇庆),97,Moderate,153,78
+Zhanjiang (湛江),68,Moderate,185,55
+Zhuhai (珠海),104,Unhealthy for Sensitive Groups,172,65
+Chongqing (重庆),137,Unhealthy for Sensitive Groups,158,78
+Yangjiang (阳江),102,Unhealthy for Sensitive Groups,170,38
+Zhongshan (中山),107,Unhealthy for Sensitive Groups,164,93
+Shantou (汕头),65,Moderate,162,55
+Shanwei (汕尾),82,Moderate,156,63
+Qingyuan (清远),78,Moderate,172,21
+Meizhou (梅州),78,Moderate,185,5
+Shaoguan (韶关),89,Moderate,174,89
+Maoming (茂名),102,Unhealthy for Sensitive Groups,169,87
+Shenzhen (深圳),122,Unhealthy for Sensitive Groups,187,25
+Heyuan (河源),82,Moderate,181,25
+Jieyang (揭阳),91,Moderate,178,59
+Jiangmen (江门),82,Moderate,165,82
+Guangzhou (广州),95,Moderate,156,76
+Huizhou (惠州),87,Moderate,160,68
+Foshan (佛山),82,Moderate,172,82
+Chaozhou (潮州),89,Moderate,184,74
+Dongguan (东莞),97,Moderate,161,70
+Lanzhou (兰州),122,Unhealthy for Sensitive Groups,163,99
+Jinchang (金昌),-,no data,161,9
+Jiayuguan (嘉峪关),72,Unhealthy for Sensitive Groups,160,21
+Nanping (南平),78,Moderate,161,5
+Putian (莆田),76,Moderate,179,5
+Ningde (宁德),74,Moderate,196,13
+Longyan (龙岩),65,Moderate,162,34
+Sanming (三明),76,Moderate,151,59
+Quanzhou (泉州),93,Moderate,151,25
+Fuzhou (福州),80,Moderate,187,13
+Tongling (铜陵),112,Unhealthy for Sensitive Groups,177,104
+Xuancheng (宣城),137,Unhealthy for Sensitive Groups,165,57
+Wuhu (芜湖),153,Unhealthy,194,76
+Hefei (合肥),164,Unhealthy,175,80
+Suzhou (苏州),172,Unhealthy,183,89
+Fuyang (富阳),-,no data,154,74
+Huaibei (淮北),151,Unhealthy,180,78
+Chuzhou (滁州),163,Unhealthy,194,70
+Chizhou (池州),127,Unhealthy for Sensitive Groups,219,17
+Shanghai (上海),169,Unhealthy,177,63
