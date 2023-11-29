@@ -1,4 +1,3 @@
-from urllib.request import urlopen
 import scrapy
 from china_cities import *
 
@@ -33,11 +32,11 @@ class PollutionSpider(scrapy.Spider):
     
     #print(start_urls)
     #define the output file
-    custom_settings = {
-        'FEEDS': {
-            'pollution.json':{'format': 'json', 'overwrite' : True },
-        }
-    }
+    # custom_settings = {
+    #     'FEEDS': {
+    #         'pollution.json':{'format': 'json', 'overwrite' : True },
+    #     }
+    # }
 
     
 
@@ -46,7 +45,8 @@ class PollutionSpider(scrapy.Spider):
         # yield pollution_item
         province= provinces()
         
-        for province in province:
+        # for province in province:
+        for province in ['shanghai','shantou']:
             #loop detail information
             next_page_url = 'https://aqicn.org/city/' + province
             try:
