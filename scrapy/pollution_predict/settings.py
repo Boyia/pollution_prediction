@@ -66,7 +66,7 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
    "pollution_predict.pipelines.MongoDBPipeline": 300,
 }
-MONGODB_URI='mongodb://boyia:002780@localhost:27017/scrap'
+MONGODB_URI='mongodb://boyia:002780@mongodb:27017/scrap'
 MONGODB_DATABASE='scrap'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -96,7 +96,7 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 FEEDS = {
     'pollution_predict/data/%(name)s_%(time)s.json': {
-        'format': 'jsonlines',
+        'format': 'json',
         'overwrite': True
         }
 }

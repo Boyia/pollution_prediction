@@ -127,6 +127,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+scrapy/pollution_predict/data/*
 
 # Spyder project settings
 .spyderproject

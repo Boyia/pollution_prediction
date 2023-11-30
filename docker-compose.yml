@@ -4,16 +4,16 @@ services:
 
   mongodb:
     build: ./mongodb
-    restart: always
+    # restart: always
     ports:
       - 27017:27017
     env_file:
-      - mongodb/.env
+      - .env
     # volumes:
     #   - db:/data/db
 
   scrapy:
     build: ./scrapy
-    restart: always
+    # restart: on-failure
     depends_on:
       - mongodb
