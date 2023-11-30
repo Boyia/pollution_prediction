@@ -17,3 +17,5 @@ class PollutionItem(scrapy.Item):
     min_pm25 = scrapy.Field()
     max_pm25 = scrapy.Field()
     level = scrapy.Field()
+    date = scrapy.Field()
+    time = scrapy.Field()

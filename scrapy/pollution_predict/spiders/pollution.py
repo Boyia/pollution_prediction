@@ -1,9 +1,12 @@
+from datetime import date
 import scrapy
 from china_cities import *
 
+from ..items import PollutionItem
+
 #from pollution_predict import PollutionItem
 
-from ..items import PollutionItem 
+
 
 
 #first get provinces 
@@ -60,8 +63,7 @@ class PollutionSpider(scrapy.Spider):
     def parse_coffee_page(self, response):
         
         pollutiontable=response.css('div.aqiwidget-table-x')
-
-        pollution_item = PollutionItem()    
+        pollution_item = PollutionItem()   
         #loop for simple information from homepage
         
         # use scrapy shell to check each one
@@ -69,7 +71,9 @@ class PollutionSpider(scrapy.Spider):
         pollution_item["cur_pm25"]= pollutiontable.css('td#cur_pm25 ::text').get(),
         pollution_item["min_pm25"]=pollutiontable.css('td#min_pm25 ::text').get(),
         pollution_item["max_pm25"]= pollutiontable.css('td#max_pm25 ::text').get(),
-        pollution_item["level"]= ' '.join(pollutiontable.css('div#aqiwgtinfo ::text').getall())
+        pollution_item["level"]= ' '.join(pollutiontable.css('div#aqiwgtinfo ::text').getall()),
+        pollution_item["date"]= pollutiontable.css('script ::text').re('[A-Za-z]{3}\s[^,]*'),
+        pollution_item["time"]= pollutiontable.css('script ::text').re('\d+:\d+[^,\']*')
     
         yield pollution_item 
 

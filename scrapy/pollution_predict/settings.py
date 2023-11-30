@@ -63,11 +63,11 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
-# ITEM_PIPELINES = {
-#    "pollution_predict.pipelines.MongoDBPipeline": 300,
-# }
-# MONGODB_URI='mongodb://boyia:002780@localhost:27017/scrap'
-# MONGODB_DATABASE='scrap'
+ITEM_PIPELINES = {
+   "pollution_predict.pipelines.MongoDBPipeline": 300,
+}
+MONGODB_URI='mongodb://boyia:002780@localhost:27017/scrap'
+MONGODB_DATABASE='scrap'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -96,7 +96,7 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 FEEDS = {
     'pollution_predict/data/%(name)s_%(time)s.json': {
-        'format': 'json',
+        'format': 'jsonlines',
         'overwrite': True
         }
 }

@@ -1,0 +1,4 @@
+[
+{"city": ["Shantou (汕头)"], "cur_pm25": ["76"], "min_pm25": ["72"], "max_pm25": ["158"], "level": "Moderate"},
+{"city": ["Shanghai (上海)"], "cur_pm25": ["65"], "min_pm25": ["50"], "max_pm25": ["177"], "level": "Moderate"}
+]
