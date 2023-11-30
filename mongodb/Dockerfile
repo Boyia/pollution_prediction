@@ -1,7 +1,8 @@
 FROM mongo:7.0
-WORKDIR /app
 
-ENV MONGO_INITDB_ROOT_USERNAME='boyia' MONGO_INITDB_ROOT_PASSWORD=002780
+
+COPY *.js /docker-entrypoint-initdb.d/
+
 
 EXPOSE 27017
-CMD [ "mongosh" ]
+CMD ["mongod"]
