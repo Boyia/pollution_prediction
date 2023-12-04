@@ -96,7 +96,7 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 FEEDS = {
     'pollution_predict/data/%(name)s_%(time)s.json': {
-        'format': 'json',
-        'overwrite': True
+        'format': 'json'#,
+        #'overwrite': True
         }
 }
